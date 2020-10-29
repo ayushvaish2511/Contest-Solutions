@@ -1,6 +1,5 @@
-//Solving Superstition problem in java using scanner class
-
 import java.util.*;
+
 class Solution
 {
     public static void main(String args[])
@@ -10,7 +9,7 @@ class Solution
         int X = sc.nextInt();
         int a[] = new int[N];
         for(int i = 0; i<N; i++)
-        a[i] = sc.nextInt();
+            a[i] = sc.nextInt();
         int c = 0;
         for(int i = 0; i<N-1; i++)
         {
@@ -18,7 +17,6 @@ class Solution
             {
                 if((a[i]+a[j])==X)
                 c++;
-               
             }
         }
         System.out.println(c);
