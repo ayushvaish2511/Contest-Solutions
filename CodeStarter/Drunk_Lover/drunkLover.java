@@ -1,5 +1,3 @@
-//To solve Drunk lover problem in java using scanner class
-
 import java.util.*;
 class Solution
 {
